@@ -1,0 +1,87 @@
+* {
+    font-family:  Verdana, Arial, sans-serif;
+    font-size: 16px;
+    background-color: #EDECE9;
+    color: #765548;
+}
+
+/*HEADER*/
+
+.header-container {
+    display: block;
+    justify-content: flex-start;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+   display: flex;
+   margin: 0rem;
+   padding-left: 0rem;
+   flex-wrap: wrap;
+}
+
+nav ul li {
+    color: #EF7529;
+    font-size: 1rem;
+    font-weight: 900;
+    list-style: none;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration-color: #EF7529;
+}
+
+/*TITULO*/
+
+h1 {
+    color: #765548;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+/*CUERPO DE LA PAGINA*/
+
+h2 {
+    background-color: #765548;
+    color: #FFE9E2;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.item-style {
+    font-weight: 900;
+}
+
+div ul li a {
+    color: #EF7529;
+    text-decoration-color: #EF7529;
+    font-weight: 600;
+}
+
+.parrafo-atencion {
+    font-weight: 800;
+}
+
+.lanacion {
+    color: #65BACF !important; 
+    text-decoration-color: #65BACF; 
+    font-weight: 800;
+}
+
+.pagina12 {
+    color: #EF454E !important; 
+    text-decoration-color: #EF454E; 
+    font-weight: 800;
+}
+
+.prosegur {
+    color: #EE7B2D;
+    font-weight: 800;
+}
