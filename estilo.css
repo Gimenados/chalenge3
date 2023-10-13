@@ -25,15 +25,22 @@ nav ul {
 }
 
 nav ul li {
-    color: #EF7529;
     font-size: 1rem;
     font-weight: 900;
     list-style: none;
     margin-right: 10px;
 }
 
-a {
+a:link {
     text-decoration-color: #EF7529;
+    color: #EF7529;
+    font-weight: 600;
+}
+
+a:visited {
+    text-decoration-color: #EF7529;
+    color: #EF7529;
+    font-weight: 600;
 }
 
 /*TITULO*/
@@ -59,16 +66,6 @@ h2 {
     font-weight: 900;
 }
 
-div ul li a {
-    color: #EF7529;
-    text-decoration-color: #EF7529;
-    font-weight: 600;
-}
-
-.parrafo-atencion {
-    font-weight: 800;
-}
-
 /*PSEUDO-CLASES*/
 
 .lanacion:link {
@@ -87,5 +84,22 @@ div ul li a {
     color: #EE7B2D;
     font-weight: 800;
 }
+
+.lanacion:visited {
+    color: #65BACF;
+    text-decoration-color: #65BACF;
+}
+
+.pagina12:visited {
+    color: #EF454E; 
+    text-decoration-color: #EF454E; 
+    font-weight: 800;
+}
+
+.prosegur:visited {
+    color: #EE7B2D;
+    font-weight: 800;
+}
+
 
 
