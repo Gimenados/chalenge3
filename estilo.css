@@ -69,19 +69,21 @@ div ul li a {
     font-weight: 800;
 }
 
-.lanacion {
-    color: #65BACF !important; 
+/*Pseudo-clases*/
+
+.lanacion:link {
+    color: #65BACF; 
     text-decoration-color: #65BACF; 
     font-weight: 800;
 }
 
-.pagina12 {
-    color: #EF454E !important; 
+.pagina12:link {
+    color: #EF454E; 
     text-decoration-color: #EF454E; 
     font-weight: 800;
 }
 
-.prosegur {
+.prosegur:link {
     color: #EE7B2D;
     font-weight: 800;
 }
